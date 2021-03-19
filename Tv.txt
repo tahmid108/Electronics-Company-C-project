@@ -1,0 +1,5 @@
+Televisions
+Sl no.     MODEL     SCREEN      Price
+1        LGBRAVIA2   72inch(LED)  34000
+2        LGBRAVIA3   72inch(LED)  36000
+3        LGBRAVIA    55inch(LED)  30000

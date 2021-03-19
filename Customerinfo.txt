@@ -1,0 +1,32 @@
+
+
+Customer id:1
+Customer name:Ami
+Customer address:janina
+Customer Age:33
+Bought product:XiaomiNote4pro
+Price(tk):19000
+
+
+Customer id:2
+Customer name:Ash Baba
+Customer address:Kushtia
+Customer Age:18
+Bought product:XiaomiNote3
+Price(tk):11000
+
+
+Customer id:3
+Customer name:Ashbaba
+Customer address:Kushtia
+Customer Age:23
+Frist Product
+Bought product:LGBRAVIA
+Price(tk):30000
+Second Product
+Bought product:LGBRAVIA
+Price(tk):30000
+
+Total Price:60000
+
+Discounted Price:47400

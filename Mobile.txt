@@ -1,0 +1,7 @@
+Mobile Phones
+Sl no.    MODEL        IMEI      RAM     ROM     CAM(Front)     CAM(BACK)     Battery      Price(Taka) 
+1     XiaomiNote4    48773895   2gb     32gb     5MP             13MP        4000Mah       13000
+2     XiaomiNote5    48773892   4gb     64gb     5MP             13MP        4000Mah       18000
+3     XiaomiNote4pro 48773894   3gb     32gb     5MP             13MP        4000Mah       19000
+4     XiaomiNote5pro 48773891   4gb     64gb     14MP            15MP        4000Mah       17000
+5     XiaomiNote3    48773824   2gb     16gb     5MP             13MP        3000Mah       11000

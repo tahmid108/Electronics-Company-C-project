@@ -1,0 +1,49 @@
+# Project: Lothbroks
+# Makefile created by Dev-C++ 5.11
+
+CPP      = g++.exe
+CC       = gcc.exe
+WINDRES  = windres.exe
+OBJ      = main.o Mobile.o Television.o Customer.o buymobile.o buytv.o Profit.o Adminpan.o
+LINKOBJ  = main.o Mobile.o Television.o Customer.o buymobile.o buytv.o Profit.o Adminpan.o
+LIBS     = -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc
+INCS     = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
+CXXINCS  = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
+BIN      = Lothbroks.exe
+CXXFLAGS = $(CXXINCS) 
+CFLAGS   = $(INCS) 
+RM       = rm.exe -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+main.o: main.cpp
+	$(CPP) -c main.cpp -o main.o $(CXXFLAGS)
+
+Mobile.o: Mobile.cpp
+	$(CPP) -c Mobile.cpp -o Mobile.o $(CXXFLAGS)
+
+Television.o: Television.cpp
+	$(CPP) -c Television.cpp -o Television.o $(CXXFLAGS)
+
+Customer.o: Customer.cpp
+	$(CPP) -c Customer.cpp -o Customer.o $(CXXFLAGS)
+
+buymobile.o: buymobile.cpp
+	$(CPP) -c buymobile.cpp -o buymobile.o $(CXXFLAGS)
+
+buytv.o: buytv.cpp
+	$(CPP) -c buytv.cpp -o buytv.o $(CXXFLAGS)
+
+Profit.o: Profit.cpp
+	$(CPP) -c Profit.cpp -o Profit.o $(CXXFLAGS)
+
+Adminpan.o: Adminpan.cpp
+	$(CPP) -c Adminpan.cpp -o Adminpan.o $(CXXFLAGS)
